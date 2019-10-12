@@ -1,0 +1,13 @@
+.app__header{
+  display: flex;
+  align-items: baseline;
+}
+
+.app__heading{
+  flex-grow: 1;
+}
+
+.app__txt{
+  font-size: 1.2rem;
+  color: #ccc;
+}

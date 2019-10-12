@@ -1,0 +1,30 @@
+.panel{
+  display: flex;
+  margin-top: 10px;
+}
+
+.panel__input{
+  width: auto;
+  flex-grow: 1;
+  background: #000;
+  margin-right: 3px;
+  padding: 15px;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  font-family: 'Raleway', sans-serif;
+  color: #fff;
+}
+
+.panel__input:focus{
+  border: 1px solid greenyellow;
+}
+
+.panel__btn{
+  color: greenyellow;
+  background: #000;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  padding: 0 15px;
+  cursor: pointer;
+  font-family: 'Raleway', sans-serif;  
+}
